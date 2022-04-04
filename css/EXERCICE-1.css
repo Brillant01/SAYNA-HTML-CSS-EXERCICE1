@@ -1,0 +1,148 @@
+
+body{
+    margin: 0;
+    padding-top: 0;
+    background-image: url(/Assets/img/background.png);
+    font-family: Arial, sans-serif;
+}
+
+/* --------------Header--------------- */
+header{
+    background-color: #C55394;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    margin:15px;
+    color: white;
+}
+
+ul{
+    display: inline-flex;
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 20px 15px;
+}
+
+li a:hover{
+    background-color: #EB43A3;
+}
+
+/*------------ section -1----------*/
+
+.section-1{
+    background-image: url(/Assets/img/rainbow.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 9%;
+    background-position: center;
+}
+
+.section-1 h2{
+    font-size: 40px;
+    position: relative;
+    top: -50px;
+}
+
+/*------------ section -2----------*/
+
+.section-2{
+    background-color: white;
+    border-radius: 15px ;
+    box-shadow: 2px 2px 5px black;
+    margin: -10% 15% 10% 15%;
+    padding: 2%;
+    font-size: 25px;
+}
+
+.section-2 img{
+    width: 100%;
+}
+
+
+
+.section-2 .§-2 div.fig{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.fig-1{
+    margin: 0 10px;
+    color: white;
+}
+
+figcaption{
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    position: relative;
+    top: -10%;
+}
+
+.§-3 .adresse{
+    display: flex
+}
+
+iframe{
+    width: 100%;
+}
+
+.§-3 .carte{
+    width: 55%;margin-right: 2%;
+}
+
+.§-3 .detail-adresse p{
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.§-3 .detail-adresse h4.newslatter{
+    margin-bottom: 10px;
+}
+
+form{
+    width: 50%;
+}
+
+input{
+    padding: 3%;
+}
+
+.§-3 .detail-adresse div button{
+    color: white;
+    font-size: 20px;
+}
+
+.§-3 button{
+    background-color: #C55394;
+    border: none;
+    border-radius: 3px;
+    padding: 4%;
+    margin: 4% 0;
+}
+
+h2, h3, h4{
+    color: #C55394;
+}
+
+h1, h2, h3,h4{
+    font-family: 'Courgette', cursive;
+}
+
+/* ---------------------footer ---------------- */
+
+footer {
+    background-color: #E577B5;
+    color: white;
+    margin-bottom: 0px;
+    padding: 0.1%;
+   text-align: right; 
+}
